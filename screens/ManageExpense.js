@@ -14,11 +14,17 @@ function ManageExpense({ route, navigation }) {
 		});
 	}, [isEditing, navigation]);
 
-	const deleteExpenseHandler = () => {};
+	const deleteExpenseHandler = () => {
+		navigation.goBack();
+	};
 
-	const cancelExpenseHandler = () => {};
+	const cancelExpenseHandler = () => {
+		navigation.goBack();
+	};
 
-	const confirmHandler = () => {};
+	const confirmHandler = () => {
+		navigation.goBack();
+	};
 
 	return (
 		<View style={styles.container}>
