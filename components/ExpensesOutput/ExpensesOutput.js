@@ -28,6 +28,42 @@ const DUMMY_EXPENSES = [
 		amount: 294.67,
 		date: new Date(2021, 7, 17),
 	},
+	{
+		id: "e5",
+		description: "Weekly Groceries",
+		amount: 100.0,
+		date: new Date(2021, 7, 15),
+	},
+	{
+		id: "e6",
+		description: "New TV",
+		amount: 799.49,
+		date: new Date(2021, 7, 16),
+	},
+	{
+		id: "e7",
+		description: "Car Insurance",
+		amount: 294.67,
+		date: new Date(2021, 7, 17),
+	},
+	{
+		id: "e8",
+		description: "Weekly Groceries",
+		amount: 100.0,
+		date: new Date(2021, 7, 15),
+	},
+	{
+		id: "e9",
+		description: "New TV",
+		amount: 799.49,
+		date: new Date(2021, 7, 16),
+	},
+	{
+		id: "e10",
+		description: "Car Insurance",
+		amount: 294.67,
+		date: new Date(2021, 7, 17),
+	},
 ];
 
 function ExpensesOutput({ expensesPeriod }) {
@@ -44,7 +80,7 @@ export default ExpensesOutput;
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		padding: 24,
+		paddingHorizontal: 24,
 		backgroundColor: GlobalStyles.colors.primary700,
 	},
 });
