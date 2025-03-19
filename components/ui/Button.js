@@ -4,7 +4,6 @@ import { GlobalStyles } from "../../constants/styles";
 function Button({ onPress, children, mode, style }) {
 	return (
 		<View style={style}>
-			<Text>Button</Text>
 			<Pressable
 				onPress={onPress}
 				style={({ pressed }) => pressed && styles.pressed}
